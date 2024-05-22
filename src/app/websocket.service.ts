@@ -10,7 +10,7 @@ export class WebsocketService {
 
   constructor() {
     this.socket$ = webSocket(
-      'ws://family-feud-server-7xhee7jur-chyles-projects.vercel.app/',
+      'wss://family-feud-server-7xhee7jur-chyles-projects.vercel.app/',
     );
   }
 
