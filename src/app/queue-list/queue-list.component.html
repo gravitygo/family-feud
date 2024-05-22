@@ -1,0 +1,8 @@
+<div class="flex h-100vh w-100vw center row">
+  <div class="flex center row" style="gap: 5px">
+    <h1 style="margin: 0.125rem">Queue List</h1>
+    <ol class="w-100vw">
+      <li [class]="color" *ngFor="let color of queue | unique">{{ color }}</li>
+    </ol>
+  </div>
+</div>
