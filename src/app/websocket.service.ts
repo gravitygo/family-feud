@@ -9,9 +9,7 @@ export class WebsocketService {
   private socket$: WebSocketSubject<any>;
 
   constructor() {
-    this.socket$ = webSocket(
-      'wss://family-feud-server-7xhee7jur-chyles-projects.vercel.app/',
-    );
+    this.socket$ = webSocket('wss://family-feud-server.vercel.app/');
   }
 
   sendMessage(message: any) {
